@@ -22,11 +22,11 @@ const TOKENS = {
 
   // Layout
   '.f': 'display:flex; flex-direction:column; gap:1.5rem;',
-  '.fr': 'display:flex; flex-direction:row; gap:0;', // Reset gap for root layout control
+  '.fr': 'display:flex; flex-direction:row; gap:0;',
   '.row': 'display:flex; flex-direction:row; gap:1.5rem; align-items:center;',
   '.jc': 'justify-content:center; text-align:center;',
   '.jb': 'justify-content:space-between;',
-  '.g2': 'display:grid; grid-template-columns:repeat(2, 1fr); gap:1.5rem;', // Fixed 2 col as requested
+  '.g2': 'display:grid; grid-template-columns:repeat(2, 1fr); gap:1.5rem;',
   '.g3': 'display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.5rem;',
 
   // Custom Layouts
